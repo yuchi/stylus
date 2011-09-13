@@ -215,8 +215,8 @@ while (args.length) {
         }
       }
       if ('--url' != path) {
-		paths.push(dirname(path));
-		plugins.push({ path: path, options: options });
+        paths.push(dirname(path));
+        plugins.push({ path: path, options: options });
       } else {
         urlFunction = options || {};
       }
